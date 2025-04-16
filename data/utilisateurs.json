@@ -63,27 +63,9 @@
             }
         ]
     },
-    "Ode": {
-        "score": 2,
-        "total": 2,
-        "details": [
-            {
-                "question": "Quelle est la capitale de la France ?",
-                "reponse_utilisateur": "Paris",
-                "reponse_correcte": "Paris",
-                "correct": true
-            },
-            {
-                "question": "Combien font 2+2 ?",
-                "reponse_utilisateur": "4",
-                "reponse_correcte": "4",
-                "correct": true
-            }
-        ]
-    },
     "ode": {
-        "score": 2,
-        "total": 2,
+        "score": 8,
+        "total": 12,
         "details": [
             {
                 "question": "Quelle est la capitale de la France ?",
@@ -116,5 +98,25 @@
                 "correct": true
             }
         ]
+    },
+    "jdj": {
+        "score": 0,
+        "total": 0,
+        "details": []
+    },
+    "hrhrhu": {
+        "score": 0,
+        "total": 0,
+        "details": []
+    },
+    "belle": {
+        "score": 0,
+        "total": 0,
+        "details": []
+    },
+    "fekfgne": {
+        "score": 6,
+        "total": 10,
+        "details": []
     }
 }

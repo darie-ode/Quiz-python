@@ -15,7 +15,7 @@ class MainApplication(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Quiz Project")
-        self.geometry("600x400")
+        self.geometry("1200x400")
         self.resizable(False, False)
 
         # Initialisation du gestionnaire d'utilisateurs et chargement des questions
@@ -66,8 +66,8 @@ class MainApplication(tk.Tk):
         for widget in self.container.winfo_children():
             widget.destroy()
         # Création de l'interface du quiz
-        quiz_frame = QuizFrame(self.container, self.questions,
-                               name, self.user_manager)
+        quiz_frame = QuizFrame(
+            self.container, self.questions, name, self.user_manager)
         quiz_frame.pack(fill="both", expand=True)
 
     def show_results(self):
@@ -80,17 +80,20 @@ class MainApplication(tk.Tk):
         results_window = tk.Toplevel(self)
         results_window.title("Résultats")
         results_window.geometry("500x300")
+
+        # Création du Treeview avec une colonne pour l'utilisateur, le score et le total
         tree = ttk.Treeview(results_window, columns=(
-            "Score", "Total"), show="headings")
+            "Utilisateur", "Score", "Total"), show="headings")
+        tree.heading("Utilisateur", text="Utilisateur")
         tree.heading("Score", text="Score")
         tree.heading("Total", text="Total")
+        tree.column("Utilisateur", width=200, anchor="center")
         tree.column("Score", width=100, anchor="center")
         tree.column("Total", width=100, anchor="center")
         tree.pack(fill="both", expand=True)
 
         for user, data in results.items():
-            tree.insert("", "end", values=(
-                f"{data['score']}", f"{data['total']}"), text=user)
+            tree.insert("", "end", values=(user, data['score'], data['total']))
 
         close_btn = ttk.Button(results_window, text="Fermer",
                                command=results_window.destroy)

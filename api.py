@@ -1,4 +1,4 @@
-import request
+import requests
 import html
 import random
 

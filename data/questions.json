@@ -18,5 +18,85 @@
             "5",
             "6"
         ]
+    },
+    {
+        "question": "Quel est le plus grand océan du monde ?",
+        "reponse": "Pacifique",
+        "choix": [
+            "Atlantique",
+            "Pacifique",
+            "Indien",
+            "Arctique"
+        ]
+    },
+    {
+        "question": "Combien de continents y a-t-il sur Terre ?",
+        "reponse": "7",
+        "choix": [
+            "5",
+            "6",
+            "7",
+            "8"
+        ]
+    },
+    {
+        "question": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+        "reponse": "1969",
+        "choix": [
+            "1965",
+            "1969",
+            "1972",
+            "1959"
+        ]
+    },
+    {
+        "question": "Quel est l'élément chimique dont le symbole est 'O' ?",
+        "reponse": "Oxygène",
+        "choix": [
+            "Hydrogène",
+            "Oxygène",
+            "Azote",
+            "Carbone"
+        ]
+    },
+    {
+        "question": "Qui a peint la Joconde ?",
+        "reponse": "Léonard de Vinci",
+        "choix": [
+            "Michel-Ange",
+            "Raphaël",
+            "Léonard de Vinci",
+            "Donatello"
+        ]
+    },
+    {
+        "question": "Qui a écrit 'Les Misérables' ?",
+        "reponse": "Victor Hugo",
+        "choix": [
+            "Victor Hugo",
+            "Alexandre Dumas",
+            "Émile Zola",
+            "Gustave Flaubert"
+        ]
+    },
+    {
+        "question": "Quel pays est surnommé le 'Pays du Soleil Levant' ?",
+        "reponse": "Japon",
+        "choix": [
+            "Chine",
+            "Corée",
+            "Japon",
+            "Inde"
+        ]
+    },
+    {
+        "question": "Quel événement marque le début de la Révolution française ?",
+        "reponse": "La prise de la Bastille",
+        "choix": [
+            "La prise de la Bastille",
+            "La Déclaration des droits de l'homme et du citoyen",
+            "L'exécution de Louis XVI",
+            "La marche sur Versailles"
+        ]
     }
 ]
