@@ -1,0 +1,22 @@
+[
+    {
+        "question": "Quelle est la capitale de la France ?",
+        "reponse": "Paris",
+        "choix": [
+            "Paris",
+            "Lyon",
+            "Marseille",
+            "Toulouse"
+        ]
+    },
+    {
+        "question": "Combien font 2+2 ?",
+        "reponse": "4",
+        "choix": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ]
+    }
+]
