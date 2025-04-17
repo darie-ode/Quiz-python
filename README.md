@@ -7,8 +7,7 @@ Ce projet est un quiz interactif en Python  avec une interface graphique (Tkinte
 
 Fonctionnalités :
 Affichage d'une série de questions de culture générale avec plusieurs choix possibles pour chacune.
-Saisie interactive du numéro de la réponse par l'utilisateur.
-Vérification de la justesse des réponses et affichage d'un message de félicitations ou d'encouragement selon le score obtenu.
+Saisie interactive du numéro de la réponse par l'utilisateur. Le temps limité à 30 secondes par question, avec un compte à rebours visible.Vérification de la justesse des réponses et affichage d'un message de félicitations ou d'encouragement selon le score obtenu.
 Calcul et affichage du score final dans la console.
 
 
